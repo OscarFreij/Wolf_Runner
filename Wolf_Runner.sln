@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wolf_Runner", "Wolf_Runner.csproj", "{54F8BD20-C6CC-4926-9E36-46F14C04751C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F8BD20-C6CC-4926-9E36-46F14C04751C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F8BD20-C6CC-4926-9E36-46F14C04751C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F8BD20-C6CC-4926-9E36-46F14C04751C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F8BD20-C6CC-4926-9E36-46F14C04751C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F684173-84D7-433F-AF35-D16E5AD816E3}
+	EndGlobalSection
+EndGlobal
