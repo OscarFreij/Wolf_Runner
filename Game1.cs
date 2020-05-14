@@ -9,9 +9,10 @@ namespace Wolf_Runner
     /// </summary>
     public class Game1 : Game
     {
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-        
+        public GraphicsDeviceManager graphics;
+        public SpriteBatch spriteBatch;
+
+        public Core.Player Player;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -27,6 +28,8 @@ namespace Wolf_Runner
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+
+            Player = new Core.Player(this, 20.0f, new Vector2(100.0f, 100.0f), 3);
 
             base.Initialize();
         }
@@ -64,6 +67,8 @@ namespace Wolf_Runner
 
             // TODO: Add your update logic here
 
+            Player.Tick(gameTime);
+
             base.Update(gameTime);
         }
 
@@ -75,7 +80,11 @@ namespace Wolf_Runner
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            Player.Draw(gameTime);
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

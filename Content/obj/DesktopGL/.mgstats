@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png","//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/bin/DesktopGL/Sprites/Wolf/Wolf_0.xnb","TextureProcessor","Texture2DContent",866,65621,0,2347237
+"//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_1.png","//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/bin/DesktopGL/Sprites/Wolf/Wolf_1.xnb","TextureProcessor","Texture2DContent",879,65621,0,1250527
+"//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_2.png","//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/bin/DesktopGL/Sprites/Wolf/Wolf_2.xnb","TextureProcessor","Texture2DContent",952,65621,0,0838939
+"//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_3.png","//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/bin/DesktopGL/Sprites/Wolf/Wolf_3.xnb","TextureProcessor","Texture2DContent",828,65621,0,0875377

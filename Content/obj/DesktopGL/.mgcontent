@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png</File>
+    <File>//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_1.png</File>
+    <File>//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_2.png</File>
+    <File>//fs1.ad.ssis.nu/18osfr/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_3.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
