@@ -13,6 +13,8 @@ namespace Wolf_Runner
         public SpriteBatch spriteBatch;
 
         public Core.Player Player;
+        public Core.Enviroment Enviroment;
+        public bool drawDebug = true;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -30,7 +32,7 @@ namespace Wolf_Runner
             // TODO: Add your initialization logic here
 
             Player = new Core.Player(this, 20.0f, new Vector2(100.0f, 100.0f), 3);
-
+            Enviroment = new Core.Enviroment(this, (this.Window.ClientBounds.Height / 2)+ 150, 9.82f);
             base.Initialize();
         }
 
@@ -82,7 +84,9 @@ namespace Wolf_Runner
 
             spriteBatch.Begin();
 
-            Player.Draw(gameTime);
+            Player.Draw(gameTime, drawDebug);
+
+            Enviroment.Draw(gameTime, drawDebug);
 
             spriteBatch.End();
 
