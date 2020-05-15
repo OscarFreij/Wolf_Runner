@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>Z:/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png</File>
-    <File>Z:/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_1.png</File>
-    <File>Z:/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_2.png</File>
-    <File>Z:/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_3.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_1.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_2.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_3.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
