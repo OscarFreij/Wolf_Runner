@@ -163,7 +163,7 @@ namespace Wolf_Runner
                 Sprites.Add(this.Game.Content.Load<Texture2D>("Sprites/Wolf/Wolf_2"));
                 Sprites.Add(this.Game.Content.Load<Texture2D>("Sprites/Wolf/Wolf_3"));
 
-                this.Collider = new Rectangle((int)(this.Position.X+3), (int)(this.Position.Y+32), 120, 58);
+                this.Collider = new Rectangle((int)(this.Position.X + 3), (int)(this.Position.Y + 32), 120, 58);
 
                 this.ColliderTexture = new Texture2D(Game.GraphicsDevice, 120, 32);
                 Color[] data = new Color[120 * 32];
@@ -171,10 +171,10 @@ namespace Wolf_Runner
                 this.ColliderTexture.SetData(data);
 
 
-                this.GDCollider = new Rectangle((int)(this.Position.X + 3), (int)(this.Position.Y + 32 + 58), 120, 5);
+                this.GDCollider = new Rectangle((int)(this.Position.X + 3), (int)(this.Position.Y + 32 + 58), 120, 1);
 
-                this.GDColliderTexture = new Texture2D(Game.GraphicsDevice, 120, 5);
-                Color[] dataG = new Color[120 * 5];
+                this.GDColliderTexture = new Texture2D(Game.GraphicsDevice, 120, 1);
+                Color[] dataG = new Color[120 * 1];
                 for (int i = 0; i < dataG.Length; ++i) dataG[i] = new Color(230, 50, 0, 230);
                 this.GDColliderTexture.SetData(dataG);
 
@@ -230,7 +230,7 @@ namespace Wolf_Runner
                 }
 
                 this.Collider = new Rectangle((int)(this.Position.X + 3), (int)(this.Position.Y + 32), 120, 58);
-                this.GDCollider = new Rectangle((int)(this.Position.X + 3), (int)(this.Position.Y + 32 + 58), 120, 5);
+                this.GDCollider = new Rectangle((int)(this.Position.X + 3), (int)(this.Position.Y + 32 + 58), 120, 1);
             }
 
             public void Draw(GameTime gameTime, bool DrawDebug)
