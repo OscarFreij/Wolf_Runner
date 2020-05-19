@@ -19,6 +19,12 @@ namespace Wolf_Runner
             public int Floor { get; private set; }
             public Rectangle FloorCollider { get; private set; }
             public Texture2D FloorColliderTexture { get; private set; }
+            
+            public Texture2D FloorTexture { get; private set; }
+            public float FloorTileOffset { get; private set; }
+            private int FloorTileAmount { get; set; }
+
+
 
             public Enviroment (Game1 Game, int Floor, float GravityConstant, float DayNightCycleTime)
             {

@@ -31,7 +31,7 @@ namespace Wolf_Runner
         {
             // TODO: Add your initialization logic here
 
-            Player = new Core.Player(this, 50.0f, 7.5f, 3);
+            Player = new Core.Player(this, 50.0f, 8.5f, 3);
             Enviroment = new Core.Enviroment(this, (this.Window.ClientBounds.Height / 2)+ 150, 9.82f);
             base.Initialize();
         }
