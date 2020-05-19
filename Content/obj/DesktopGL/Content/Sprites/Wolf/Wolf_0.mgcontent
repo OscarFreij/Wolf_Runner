@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>Z:/Documents/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png</SourceFile>
-  <SourceTime>2020-05-15T01:13:36.8104451+02:00</SourceTime>
-  <DestFile>Z:/Documents/git/Wolf_Runner/Content/bin/DesktopGL/Content/Sprites/Wolf/Wolf_0.xnb</DestFile>
-  <DestTime>2020-05-17T15:29:17.7815934+02:00</DestTime>
+  <SourceFile>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png</SourceFile>
+  <SourceTime>2020-05-15T17:33:36.8468558+02:00</SourceTime>
+  <DestFile>D:/git/Wolf_Runner/Content/bin/DesktopGL/Content/Sprites/Wolf/Wolf_0.xnb</DestFile>
+  <DestTime>2020-05-19T23:08:13.5558682+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
