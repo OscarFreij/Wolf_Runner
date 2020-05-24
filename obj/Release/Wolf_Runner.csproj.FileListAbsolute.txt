@@ -3,6 +3,13 @@ D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Wolf\Wolf_0.xnb
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Wolf\Wolf_1.xnb
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Wolf\Wolf_2.xnb
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Wolf\Wolf_3.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Obstacles\Stone_0.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Obstacles\Stone_1.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Obstacles\Stone_2.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Sprites\Ground\ground_0.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Fonts\Standard.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Enviroment\Moon_0.xnb
+D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Content\Enviroment\Sun_0.xnb
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\x86\SDL2.dll
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\x64\SDL2.dll
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\x86\soft_oal.dll
@@ -16,7 +23,6 @@ D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\libopenal.1.dylib
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Wolf_Runner.exe
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\Wolf_Runner.pdb
 D:\git\Wolf_Runner\bin\DesktopGL\AnyCPU\Release\MonoGame.Framework.dll
-D:\git\Wolf_Runner\obj\Release\Wolf_Runner.csprojAssemblyReference.cache
 D:\git\Wolf_Runner\obj\Release\Wolf_Runner.csproj.CopyComplete
 D:\git\Wolf_Runner\obj\Release\Wolf_Runner.exe
 D:\git\Wolf_Runner\obj\Release\Wolf_Runner.pdb

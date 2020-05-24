@@ -4,12 +4,26 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>D:/git/Wolf_Runner/Content/Enviroment/Moon_0.png</File>
+    <File>D:/git/Wolf_Runner/Content/Enviroment/Sun_0.png</File>
+    <File>D:/git/Wolf_Runner/Content/Fonts/Standard.spritefont</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Ground/ground_0.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Obstacles/Stone_0.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Obstacles/Stone_1.png</File>
+    <File>D:/git/Wolf_Runner/Content/Sprites/Obstacles/Stone_2.png</File>
     <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_0.png</File>
     <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_1.png</File>
     <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_2.png</File>
     <File>D:/git/Wolf_Runner/Content/Sprites/Wolf/Wolf_3.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

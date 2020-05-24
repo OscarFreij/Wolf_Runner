@@ -14,7 +14,10 @@ namespace Wolf_Runner
 
         public Core.Player Player;
         public Core.Enviroment Enviroment;
-        public bool drawDebug = true;
+        public Core.GameManager GameManager;
+        public Core.UI UI;
+        public bool drawDebug = false;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -30,9 +33,10 @@ namespace Wolf_Runner
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
-            Player = new Core.Player(this, 50.0f, 8.5f, 3);
-            Enviroment = new Core.Enviroment(this, (this.Window.ClientBounds.Height / 2)+ 150, 9.82f);
+            GameManager = new Core.GameManager(this);
+            UI = new Core.UI(this);
+            Player = new Core.Player(this, 50.0f, 6.5f, 3);
+            Enviroment = new Core.Enviroment(this, (this.Window.ClientBounds.Height / 2)+ 150, 9.82f,60.0f);
             base.Initialize();
         }
 
@@ -64,12 +68,31 @@ namespace Wolf_Runner
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+            if ((GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)) && (this.GameManager.GameState == 0 || this.GameManager.GameState == 2))
                 Exit();
 
             // TODO: Add your update logic here
 
-            Player.Tick(gameTime);
+            if (Keyboard.GetState().IsKeyDown(Keys.Space) && (this.GameManager.GameState == 0 || this.GameManager.GameState == 2))
+            {
+                if(this.GameManager.GameState == 0)
+                {
+                    this.GameManager.ChangeGameState(1);
+                }
+                else if (this.GameManager.GameState == 2)
+                {
+                    this.GameManager.GameRestart();
+                }
+            }
+
+            GameManager.Tick(gameTime);
+
+            if (this.GameManager.GameState == 1)
+            {
+                Player.Tick(gameTime);
+
+                Enviroment.Tick(gameTime);
+            }
 
             base.Update(gameTime);
         }
@@ -80,13 +103,16 @@ namespace Wolf_Runner
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Enviroment.CycleColor);
 
-            spriteBatch.Begin();
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
 
             Player.Draw(gameTime, drawDebug);
 
             Enviroment.Draw(gameTime, drawDebug);
+
+
+            UI.Draw(gameTime, drawDebug);
 
             spriteBatch.End();
 
